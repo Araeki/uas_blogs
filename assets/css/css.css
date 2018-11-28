@@ -99,10 +99,10 @@ table{
 
 table.data.table.data tr th,table.data tr td{
 	border-collapse: collapse;
-	border: 1px solid #bf3e11;
+	border: 10px solid #bf3e11;
 }
 
-table.data tr td{
+table.data tr th td{
 	text-align: center;
 }
 

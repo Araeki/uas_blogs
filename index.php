@@ -22,7 +22,7 @@
 				if(!is_null(get('p'))){
 					switch (get('p')) {
 						case 'blog':
-						inc('blog');
+						inc('tampilan/blog/blog');
 						break;
 						case 'crud':
 							switch (get('m')) {
@@ -35,12 +35,13 @@
 								case 'edit':
 									inc('tampilan/blog/edit');
 									break;
+
 								default:
 									inc('tampilan/blog/all');
 									break;
 							}
 							break;
-							default:
+						default:
 							inc('blog');
 							break;
 					}

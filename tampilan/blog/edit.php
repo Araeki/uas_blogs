@@ -4,19 +4,19 @@ $hasil->execute();
 $data = $hasil->fetch(PDO::FETCH_ASSOC); 
 ?> 
 <form method="POST" action="proses/blog/update.php" enctype="multipart/form-data"> 
-	<input type="hidden" name="id" value="<?php echo $data['id'];?>"> 
+	<input type="hidden" name="id" value="<?php echo $data['id']; ?>"> 
 	<table> 
 		<tr> 
 			<td>Judul</td> 
-			<td><input type="text" name="judul" value=" <?php echo $data['judul'];?>"></td> 
+			<td><input type="text" name="judul" value="<?php echo $data['judul']; ?>"></td> 
 		</tr> 
 		<tr> 
 			<td>Konten</td> 
-			<td><input type="text" name="konten" value=" <?php echo $data['konten'];?>"></td> 
+			<td><input type="text" name="konten" value="<?php echo $data['konten']; ?>"></td> 
 		</tr> 
 		<tr> 
 			<td>Penulis</td> 
-			 <td><input type="text" name="penulis" value=" <?php echo $data['penulis'];?>"></td> 
+			 <td><input type="text" name="penulis" value=" <?php echo $data['penulis']; ?>"></td> 
 		</tr> 
 		<tr> 
 			<td></td> 

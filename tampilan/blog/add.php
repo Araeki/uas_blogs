@@ -8,6 +8,9 @@
 		<tr>
 			<td>Konten</td>
 			<td><input type="text" name="konten"></td>
+			
+		</tr>
+		<tr>
 			<td>Penulis</td>
 			<td><input type="text" name="penulis"></td>
 		</tr>
